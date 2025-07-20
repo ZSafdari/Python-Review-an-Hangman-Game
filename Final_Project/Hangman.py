@@ -8,7 +8,7 @@ from pygame import mixer
 
 
 mixer.init()
-mixer.music.load("C:\\Users\\Zeinab\\Desktop\\Python Reveiw and Hangman Game\\Final_Project\\Hangman\\Time Lapse.mp3")
+mixer.music.load("Python Reveiw and Hangman Game\\Final_Project\\Hangman\\Time Lapse.mp3")
 mixer.music.play(-1)
 
 win1 = Tk()
@@ -16,7 +16,7 @@ win1.title("Start!")
 win1.geometry("640x480")
 win1.resizable(False, False)
 
-photo1 = PhotoImage(file="C:\\Users\\Zeinab\\Desktop\\Python Reveiw and Hangman Game\\Final_Project\\Hangman\\Images\\bg.png")
+photo1 = PhotoImage(file="Python Reveiw and Hangman Game\\Final_Project\\Hangman\\Images\\bg.png")
 lb1 = Label(win1, image=photo1)
 lb1.pack()
 
@@ -37,12 +37,12 @@ def openwindow():
     word_list = ["CSHARP", "JAVASCRIPT", "PYTHON", "JAVA",
                  "DELFI", "REACT", "RUBY", "MATLAB", "SWIFT"]
 
-    photos = [PhotoImage(file="C:\\Users\\Zeinab\\Desktop\\Python Reveiw and Hangman Game\\Final_Project\\Hangman\\Images\\1.png"),
-              PhotoImage(file="C:\\Users\\Zeinab\\Desktop\\Python Reveiw and Hangman Game\\Final_Project\\Hangman\\Images\\2.png"),
-              PhotoImage(file="C:\\Users\\Zeinab\\Desktop\\Python Reveiw and Hangman Game\\Final_Project\\Hangman\\Images\\3.png"),
-              PhotoImage(file="C:\\Users\\Zeinab\\Desktop\\Python Reveiw and Hangman Game\\Final_Project\\Hangman\\Images\\4.png"),
-              PhotoImage(file="C:\\Users\\Zeinab\\Desktop\\Python Reveiw and Hangman Game\\Final_Project\\Hangman\\Images\\5.png"),
-              PhotoImage(file="C:\\Users\\Zeinab\\Desktop\\Python Reveiw and Hangman Game\\Final_Project\\Hangman\\Images\\6.png")]
+    photos = [PhotoImage(file="Python Reveiw and Hangman Game\\Final_Project\\Hangman\\Images\\1.png"),
+              PhotoImage(file="Python Reveiw and Hangman Game\\Final_Project\\Hangman\\Images\\2.png"),
+              PhotoImage(file="Python Reveiw and Hangman Game\\Final_Project\\Hangman\\Images\\3.png"),
+              PhotoImage(file="Python Reveiw and Hangman Game\\Final_Project\\Hangman\\Images\\4.png"),
+              PhotoImage(file="Python Reveiw and Hangman Game\\Final_Project\\Hangman\\Images\\5.png"),
+              PhotoImage(file="Python Reveiw and Hangman Game\\Final_Project\\Hangman\\Images\\6.png")]
 
     def ExitWindow():
         answer1 = messagebox.askquestion("Oops! Game Over!", "Do you want to try again?", icon="warning")
